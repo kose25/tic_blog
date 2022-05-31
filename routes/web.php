@@ -14,6 +14,8 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', 'PostController@index');
+Route::get('/prueba', 'PostController@prueba');
+Route::get('/prueba_blog', 'PostController@blogsitos');
 Route::get('/home', ['as' => 'home', 'uses' => 'PostController@index']);
 
 //authentication

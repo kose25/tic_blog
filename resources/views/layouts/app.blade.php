@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Blog Demo | Flowkl</title>
+  <title>Blog Demo</title>
   <link href="{{ asset('/css/app.css') }}" rel="stylesheet">
   <!-- Fonts -->
   <link href='//fonts.googleapis.com/css?family=Roboto:400,300' rel='stylesheet' type='text/css'>
@@ -27,7 +27,7 @@
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
         </button>
-        <a class="navbar-brand" href="https://www.flowkl.com">Flowkl</a>
+        <a class="navbar-brand" href="#">Monica Fonseca</a>
       </div>
       <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
         <ul class="nav navbar-nav">
@@ -41,7 +41,7 @@
             <a href="{{ url('/auth/login') }}">Login</a>
           </li>
           <li>
-            <a href="{{ url('/auth/register') }}">Register</a>
+            <a href="{{ url('/auth/register') }}">Registrarse</a>
           </li>
           @else
           <li class="dropdown">
@@ -49,17 +49,17 @@
             <ul class="dropdown-menu" role="menu">
               @if (Auth::user()->can_post())
               <li>
-                <a href="{{ url('/new-post') }}">Add new post</a>
+                <a href="{{ url('/new-post') }}">Agregar nueva publicacion</a>
               </li>
               <li>
-                <a href="{{ url('/user/'.Auth::id().'/posts') }}">My Posts</a>
+                <a href="{{ url('/user/'.Auth::id().'/posts') }}">Mis publicaciones</a>
               </li>
               @endif
               <li>
-                <a href="{{ url('/user/'.Auth::id()) }}">My Profile</a>
+                <a href="{{ url('/user/'.Auth::id()) }}">Mi Perfil</a>
               </li>
               <li>
-                <a href="{{ url('/logout') }}">Logout</a>
+                <a href="{{ url('/logout') }}">Cerrar sesion</a>
               </li>
             </ul>
           </li>
@@ -102,7 +102,7 @@
     </div>
     <div class="row">
       <div class="col-md-10 col-md-offset-1">
-        <p>Copyright © 2015 | <a href="https://www.flowkl.com">Flowkl</a></p>
+        <p>Copyright © 2022 | <a href="#">Monica Fonseca</a></p>
       </div>
     </div>
   </div>

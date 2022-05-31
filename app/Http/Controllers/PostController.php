@@ -27,6 +27,16 @@ class PostController extends Controller
     return view('home')->withPosts($posts)->withTitle($title);
   }
 
+  public function prueba(){
+    return view('index');
+  }
+
+  public function blogsitos(){
+    $posts = Posts::where('active', '1')->orderBy('created_at', 'desc')->paginate(5);
+    $title = 'Latest Posts';
+    return view('blog')->withPosts($posts)->withTitle($title);
+  }
+
   /**
    * Show the form for creating a new resource.
    *
@@ -88,7 +98,7 @@ class PostController extends Controller
     } else {
       return redirect('/')->withErrors('requested page not found');
     }
-    return view('posts.show')->withPost($post)->withComments($comments);
+    return view('postv2.show')->withPost($post)->withComments($comments);
   }
 
   /**

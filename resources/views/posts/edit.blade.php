@@ -1,6 +1,6 @@
 @extends('layouts.app')
 @section('title')
-Edit Post
+Editar Publicacion
 @endsection
 @section('content')
 <script type="text/javascript" src="{{ asset('/js/tinymce/tinymce.min.js') }}"></script>
@@ -26,11 +26,11 @@ Edit Post
     </textarea>
   </div>
   @if($post->active == '1')
-  <input type="submit" name='publish' class="btn btn-success" value="Update" />
+  <input type="submit" name='publish' class="btn btn-success" value="Actualizar" />
   @else
-  <input type="submit" name='publish' class="btn btn-success" value="Publish" />
+  <input type="submit" name='publish' class="btn btn-success" value="Publicar" />
   @endif
-  <input type="submit" name='save' class="btn btn-default" value="Save As Draft" />
-  <a href="{{  url('delete/'.$post->id.'?_token='.csrf_token()) }}" class="btn btn-danger">Delete</a>
+  <input type="submit" name='save' class="btn btn-default" value="Guardar como borrador" />
+  <a href="{{  url('delete/'.$post->id.'?_token='.csrf_token()) }}" class="btn btn-danger">Borrar</a>
 </form>
 @endsection
