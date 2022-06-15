@@ -13,10 +13,12 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', 'PostController@index');
+//Route::get('/', 'PostController@index');
 Route::get('/prueba', 'PostController@prueba');
-Route::get('/prueba_blog', 'PostController@blogsitos');
-Route::get('/home', ['as' => 'home', 'uses' => 'PostController@index']);
+Route::get('/', 'PostController@prueba');
+Route::get('/blog', 'PostController@blogsitos');
+//Route::get('/home', ['as' => 'home', 'uses' => 'PostController@index']);
+Route::get('/home', ['as' => 'home', 'uses' => 'PostController@prueba']);
 
 //authentication
 // Route::resource('auth', 'Auth\AuthController');

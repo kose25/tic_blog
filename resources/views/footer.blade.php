@@ -4,6 +4,9 @@
         <div class="container p-4">
             <!-- Section: Social media -->
             <section class="mb-4">
+                <!-- Mail -->
+                <a class="btn btn-outline-light btn-floating m-1" href="mailto:consultor.estratega@monicafonseca.co" role="button" target="_blank"><i
+                        class="far fa-envelope"></i></a>
                 <!-- Facebook -->
                 <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i
                         class="fab fa-facebook-f"></i></a>
@@ -173,7 +176,7 @@
 
         <!-- Copyright -->
         <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
-            © 2020 Copyright:
+            © 2022 Copyright:
             <a class="text-white" href="#"></a>
         </div>
         <!-- Copyright -->

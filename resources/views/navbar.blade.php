@@ -1,8 +1,16 @@
 <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light py-4">
-        <div class="container">
+        <div class="container-fluid px-5">
             <div class="d-flex flex-column">
-                <a class="navbar-brand" href="#">Monica Fonseca</a>
-                <small>Ingeniera de Sistemas</small>
+                <a class="navbar-brand" href="#">
+                <img
+        src="{{ asset('/images/Logo-Monica-fonseca-cropped.png') }}"
+        class="me-2"
+        height="100"
+        alt="Logo"
+        loading="lazy"
+      />               
+              </a>
+              {{-- <small>Ingeniera de Sistemas</small>--}}                
             </div>
             <button class="navbar-toggler" type="button" data-mdb-toggle="collapse" data-mdb-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -11,16 +19,16 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="{{ url('/prueba') }}">Inicio</a>
+                        <a class="nav-link active" aria-current="page" href="{{ url('/') }}">Inicio</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="{{ url('/prueba#quiensoy') }}">¿Quien soy?</a>
+                        <a class="nav-link" href="{{ url('/#quiensoy') }}">¿Quien soy?</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="{{ url('/prueba_blog') }}">Blog</a>
+                        <a class="nav-link" href="{{ url('/blog') }}">Blog</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="{{ url('/prueba#contacto') }}">Contacto</a>
+                        <a class="nav-link" href="{{ url('/#contacto') }}">Contacto</a>
                     </li>
                     @if (Auth::check())
                     <!-- Dropdown -->

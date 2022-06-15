@@ -25,8 +25,7 @@
 @foreach( $posts as $post )
             <div class="col-md-4">
                 <div class="card">
-                    <img src="https://mdbcdn.b-cdn.net/img/new/standard/nature/184.webp" class="card-img-top"
-                        alt="Fissure in Sandstone" />
+                    {{-- <img src="https://mdbcdn.b-cdn.net/img/new/standard/nature/184.webp" class="card-img-top" alt="Fissure in Sandstone" /> --}}
                     <div class="card-body">
                         <h5 class="card-title">{{ $post->title }}</h5>
                         <h6 class="card-subtitle mb-2 text-muted">{{ $post->created_at->format('M d,Y \a\t h:i a') }} por <a href="#">{{ $post->author->name }}</a></h6>
