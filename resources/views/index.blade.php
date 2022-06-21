@@ -72,7 +72,12 @@
                 <button type="button" class="btn btn-dark d-none">Dark</button>
             </div>
             <div class="col-md-6">
-                <img src="{{ asset('/images/2.jpg') }}" alt="" class="img-fluid">
+                {{--<img src="{{ asset('/images/2.jpg') }}" alt="" class="img-fluid">--}}
+                <div class="view">
+                    <video class="video-fluid" autoplay="" loop="" muted="" width="100%">
+                        <source src="{{ asset('/videos/Secuencia.mp4') }}" type="video/mp4">
+                    </video>
+                </div>
             </div>
         </div>
     </div>
