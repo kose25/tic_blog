@@ -5,7 +5,6 @@
                 <img
         src="{{ asset('/images/Logo-Monica-fonseca-cropped.png') }}"
         class="me-2"
-        height="100"
         alt="Logo"
         loading="lazy"
       />               
