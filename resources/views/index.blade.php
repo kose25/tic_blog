@@ -67,8 +67,7 @@
             <div class="col-md-6 p-4 align-self-center">
                 <h3>¿Quien</h3>
                 <h1>soy?</h1>
-                <p>Profesional con más de 20 años de experiencia, apasionada por la investigación, la innovación, la tecnología, el desarrollo sostenible y el empoderamiento femenino.<br>
-                Buscando permanentemente transformar realidades y aportar para el desarrollo de un mundo mejor</p>
+                <p>Profesional con más de 20 años de experiencia, apasionada por la investigación, la innovación, la tecnología, el desarrollo sostenible y el empoderamiento femenino. Buscando permanentemente transformar realidades y aportar para el desarrollo de un mundo mejor.</p>
                 <button type="button" class="btn btn-dark d-none">Dark</button>
             </div>
             <div class="col-md-6">
@@ -87,7 +86,7 @@
             <ul class="nav nav-pills nav-fill mb-3" id="ex1" role="tablist">
                 <li class="nav-item" role="presentation">
                     <a class="nav-link active" id="ex2-tab-1" data-mdb-toggle="pill" href="#ex2-pills-1" role="tab"
-                        aria-controls="ex2-pills-1" aria-selected="true">Educacion</a>
+                        aria-controls="ex2-pills-1" aria-selected="true">Educación</a>
                 </li>
                 <li class="nav-item" role="presentation">
                     <a class="nav-link" id="ex2-tab-2" data-mdb-toggle="pill" href="#ex2-pills-2" role="tab"
@@ -110,7 +109,7 @@
                     <div class="row">
                         <div class="col-md-4 text-center my-4">
                             <b>Universidad Francisco de Paula Santander</b>
-                            <br>Ingeniera de Sistemas <br>
+                            <br>Ingeniería de Sistemas<br>
                             1999
                         </div>
                         <div class="col-md-4 text-center my-4">
@@ -130,7 +129,7 @@
                         </div>
                         <div class="col-md-4 text-center my-4">
                             <b>Universidad Pedagógica Experimetal Libertador</b>
-                            <br>Máster en Planificación Globa<br>
+                            <br>Máster en Planificación Global<br>
                             2012
                         </div>
                         <div class="col-md-4 text-center my-4">
@@ -148,7 +147,7 @@
                 <div class="tab-pane fade" id="ex2-pills-2" role="tabpanel" aria-labelledby="ex2-tab-2">
                     <div class="row text-center">
                         <div class="col-md-4 my-4">
-                            <b>E mpatía - Autonomía - Proactividad.</b>
+                            <b>Empatía - Autonomía - Proactividad.</b>
                         </div>
                         <div class="col-md-4 my-4">
                             <b>Comunicación asertiva.</b>

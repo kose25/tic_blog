@@ -8,11 +8,11 @@
                 <a class="btn btn-outline-light btn-floating m-1" href="mailto:consultor.estratega@monicafonseca.co" role="button" target="_blank"><i
                         class="far fa-envelope"></i></a>
                 <!-- Facebook -->
-                <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i
+                <a class="btn btn-outline-light btn-floating m-1" href="https://www.facebook.com/itds.monicafonseca" role="button" target="_blank"><i
                         class="fab fa-facebook-f"></i></a>
 
                 <!-- Twitter -->
-                <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i
+                <a class="btn btn-outline-light btn-floating m-1" href="https://twitter.com/itds_MF" role="button" target="_blank"><i
                         class="fab fa-twitter"></i></a>
 
                 <!-- Google -->
@@ -20,11 +20,11 @@
                         class="fab fa-google"></i></a>
 
                 <!-- Instagram -->
-                <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i
+                <a class="btn btn-outline-light btn-floating m-1" href="https://www.instagram.com/itds.monicafonseca/" role="button" target="_blank"><i
                         class="fab fa-instagram"></i></a>
 
                 <!-- Linkedin -->
-                <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i
+                <a class="btn btn-outline-light btn-floating m-1" href="https://www.linkedin.com/in/monica-fonseca-1b491434?challengeId=AQFClIUnHduB-AAAAYI8V0_cDEIrd2vntN030EpV3UpD6dV_bVMzXX0hFp_j4AyGNKzpWBONNFJUOMJd9cjxz0m8ZNu-7wRTwg&submissionId=86542d31-3b7d-0517-26af-b94e25f6dc0c&challengeSource=AgGKMa89DzMizwAAAYI8V7lIGaXAo4rgeShYzFbMakblONXb2g5h5u-iRuT18Jw&challegeType=AgHBqptlQ2CCrgAAAYI8V7lL9QJk35PJynxVRZOI6lv-6q6U4dFWqSY&memberId=AgE1uqpRmy6FqQAAAYI8V7lPWrkUPnZzcHJAI9P_Q5g1LeE&recognizeDevice=AgGGQcBzricNGwAAAYI8V7lS0pYOU2P8XPIwFrfiVeWcz8WqjSTX" role="button" target="_blank"><i
                         class="fab fa-linkedin-in"></i></a>
 
                 <!-- Github -->
